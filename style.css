@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(125deg,#d05ae7,#f7d180);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: black;
+    margin-left: 25rem;
+}
+
+p{
+    font-size: 2rem;
+    color: black;
+    margin-left: 28rem;
+}
+span i{
+    font-size: 2rem;
+    color: black;
+    margin-left: 35rem;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background : linear-gradient(125deg,#d05ae7,#f7d180);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.text a{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(253, 253, 247);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 9px 25px;
+    background-color:rgb(23, 23, 145);
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color:rgb(56, 112, 45);
+}
+
+.cards {
+    display: table;
+    margin-left: 50px;
+}
+
+.card {
+    font-family: "Candara", fantasy;
+    width: 340px;;
+    overflow: hidden;
+    background:linear-gradient(125deg,#d05ae7,#f7d180);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid rgb(238, 234, 219);
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+
+.card-content h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.card-content h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+    color:black;
+    text-decoration: none;
+}
